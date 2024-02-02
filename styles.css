@@ -1,0 +1,208 @@
+body {
+  background-color: #222323;
+  color: aliceblue;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #2d2e2e !important;
+}
+
+.nav-text,
+.main-text {
+  font-family: "Radio Canada", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border: var(--bs-border-width) solid white;
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url(xmlns="http://www.w3.org/2000/svg"width="16"height="16"fill="white"class="bi bi-list"viewBox="0 0 16 16"><pathfill-rule="evenodd"d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>);
+}
+
+.about-me {
+  background-color: #2d2e2e;
+  padding: 7% 0 10% 0;
+}
+
+.headings {
+  font-size: 3rem;
+  font-family: "Alegreya", Serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center,
+.hello-img,
+.hero-section-two {
+  display: flex;
+  justify-content: center;
+}
+
+.description-text {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.profile-pic {
+  height: 200px;
+  border-radius: 15%;
+  margin-top: 50px;
+}
+
+.hero-section {
+  background-color: #222323;
+  margin-bottom: 0;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.main-text {
+  font-weight: 100;
+}
+
+hr {
+  color: #000;
+  border: 3px solid black;
+}
+
+.skills-img {
+  height: 100px;
+  width: 100px;
+}
+
+.justify-text {
+  text-align: left;
+}
+
+.skills {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.divider {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.custom-container,
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-container {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 1px;
+  font-family: Arial;
+  color: #f0f0f0;
+  font-size: 20px;
+  background: transparent;
+  padding: 5px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  background-color: #2d2e2e;
+  margin-top: 3%;
+  height: 20vh;
+}
+
+.footer-img {
+  height: 40px;
+  padding: 10px 0 10px 10px;
+  margin-right: 10px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-text {
+    padding: 15px;
+    font-size: 1rem;
+  }
+  .headings {
+    font-size: 1.8rem;
+  }
+  .nav-text {
+    font-size: 1rem;
+  }
+} */
+
+@media (min-width: 280px) and (max-width: 800px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-text {
+    padding: 15px;
+    font-size: 1.25rem;
+  }
+
+  .headings {
+    font-size: 1.8rem;
+  }
+
+  .nav-text {
+    font-size: 1rem;
+  }
+
+  .description-text {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    height: 20vh;
+    margin-top: 50px;
+  }
+}
